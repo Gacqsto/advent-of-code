@@ -5,7 +5,7 @@ import com.github.gacqsto.adventofcode.utils.adventUtils.readFile
 object day1 {
 
   val sonarReadings: List[Int] =
-    readFile("src/main/resources/day1/day1-sonar.csv").map(_.toInt)
+    readFile("src/main/resources/day1/input1.csv").map(_.toInt)
 
   def countIncreasesFromList(list: List[Int]): Int = {
     var numberOfIncreases = 0
