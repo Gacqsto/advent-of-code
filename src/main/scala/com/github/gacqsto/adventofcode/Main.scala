@@ -4,6 +4,8 @@ import com.github.gacqsto.adventofcode.days.day1
 
 object Main extends App {
 
-  day1
+  // day 1
+  day1.part1()
+  day1.part2()
 
 }
