@@ -6,6 +6,8 @@ object adventUtils {
 
   def readFile(filePath: String): List[String] ={
     val bufferedSource = Source.fromFile(filePath)
-    bufferedSource.getLines.toList
+    val lines = bufferedSource.getLines.toList
+    bufferedSource.close()
+    lines
   }
 }
