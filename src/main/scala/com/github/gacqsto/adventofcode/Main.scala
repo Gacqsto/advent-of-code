@@ -11,4 +11,5 @@ object Main extends App {
 
   //day2
   day2.part1()
+  day2.part2()
 }
